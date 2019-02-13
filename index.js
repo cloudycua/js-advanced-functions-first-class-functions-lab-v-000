@@ -3,5 +3,5 @@ const returnFirstTwoDrivers = function(drivers) {
 };
 
 function returnLastTwoDrivers() {
-  
+
 }
