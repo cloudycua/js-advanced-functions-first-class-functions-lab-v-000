@@ -8,7 +8,8 @@ const returnLastTwoDrivers = function(drivers) {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-// Invokes function for repetitive code
+
+// Function and invoked function for repetitive code
 
 function createFareMultiplier(multiplier) {
   return function(fare) {
@@ -19,6 +20,7 @@ function createFareMultiplier(multiplier) {
 const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
+
 
 // returnFirstTwoDrivers or returnLastTwoDrivers function passed in as argument
 function fetchSpecifiedDrivers(drivers, whichDrivers) {
