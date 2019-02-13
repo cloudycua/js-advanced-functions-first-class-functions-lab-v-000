@@ -1,5 +1,4 @@
-function returnFirstTwoDrivers() {
-  const = function(drivers) {
+const returnFirstTwoDrivers() = function(drivers) {
     drivers.slice(0, 2);
-  };
-}
+};
+
